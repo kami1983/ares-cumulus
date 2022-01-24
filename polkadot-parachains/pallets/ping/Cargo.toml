@@ -14,7 +14,7 @@ sp-runtime = { git = "https://github.com/zzm-Zhong/substrate", default-features 
 frame-support = { git = "https://github.com/zzm-Zhong/substrate", default-features = false, branch = "polkadot-v0.9.13-fix" }
 frame-system = { git = "https://github.com/zzm-Zhong/substrate", default-features = false, branch = "polkadot-v0.9.13-fix" }
 
-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.13" }
+xcm = { git = "https://github.com/kami1983/ares-polkadot", default-features = false, branch = "release-v0.9.13-fix" }
 
 cumulus-primitives-core = { path = "../../../primitives/core", default-features = false }
 cumulus-pallet-xcm = { path = "../../../pallets/xcm", default-features = false }

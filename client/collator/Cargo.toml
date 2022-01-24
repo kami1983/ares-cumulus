@@ -13,10 +13,10 @@ sp-api = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0
 sc-client-api = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
 
 # Polkadot dependencies
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13" }
-polkadot-node-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13" }
-polkadot-overseer = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13" }
-polkadot-node-subsystem = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13" }
+polkadot-primitives = { git = "https://github.com/kami1983/ares-polkadot", branch = "release-v0.9.13-fix" }
+polkadot-node-primitives = { git = "https://github.com/kami1983/ares-polkadot", branch = "release-v0.9.13-fix" }
+polkadot-overseer = { git = "https://github.com/kami1983/ares-polkadot", branch = "release-v0.9.13-fix" }
+polkadot-node-subsystem = { git = "https://github.com/kami1983/ares-polkadot", branch = "release-v0.9.13-fix" }
 
 # Cumulus dependencies
 cumulus-client-network = { path = "../network" }
@@ -31,7 +31,7 @@ tracing = "0.1.25"
 
 [dev-dependencies]
 # Polkadot dependencies
-polkadot-node-subsystem-test-helpers = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.13" }
+polkadot-node-subsystem-test-helpers = { git = "https://github.com/kami1983/ares-polkadot", branch = "release-v0.9.13-fix" }
 
 # Cumulus dependencies
 cumulus-test-runtime = { path = "../../test/runtime" }
