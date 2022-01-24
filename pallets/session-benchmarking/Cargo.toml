@@ -13,12 +13,12 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-sp-std = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "polkadot-v0.9.13" }
-sp-runtime = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "polkadot-v0.9.13" }
-frame-support = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "polkadot-v0.9.13" }
-frame-system = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "polkadot-v0.9.13" }
-frame-benchmarking = { default-features = false, optional = true, git = 'https://github.com/paritytech/substrate', branch = "polkadot-v0.9.13" }
-pallet-session = { default-features = false, git = 'https://github.com/paritytech/substrate', branch = "polkadot-v0.9.13" }
+sp-std = { default-features = false, git = 'https://github.com/zzm-Zhong/substrate', branch = "polkadot-v0.9.13-fix" }
+sp-runtime = { default-features = false, git = 'https://github.com/zzm-Zhong/substrate', branch = "polkadot-v0.9.13-fix" }
+frame-support = { default-features = false, git = 'https://github.com/zzm-Zhong/substrate', branch = "polkadot-v0.9.13-fix" }
+frame-system = { default-features = false, git = 'https://github.com/zzm-Zhong/substrate', branch = "polkadot-v0.9.13-fix" }
+frame-benchmarking = { default-features = false, optional = true, git = 'https://github.com/zzm-Zhong/substrate', branch = "polkadot-v0.9.13-fix" }
+pallet-session = { default-features = false, git = 'https://github.com/zzm-Zhong/substrate', branch = "polkadot-v0.9.13-fix" }
 
 [features]
 default = ["std"]
